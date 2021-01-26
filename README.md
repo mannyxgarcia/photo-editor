@@ -9,3 +9,5 @@ This is a photo editing app that allows you to upload an image and edit brightne
 [http://localhost:3000](http://localhost:3000)
 
 ## Deployed Site
+
+[photo-editor-2021.netlify.app/](https://photo-editor-2021.netlify.app/)
