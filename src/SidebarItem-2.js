@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-const SidebarItem2 = ({handleImageUpload}) => {
+const SidebarItem2 = ({handleImageUpload, image}) => {
   return (
     <>
       <label
@@ -18,7 +18,7 @@ const SidebarItem2 = ({handleImageUpload}) => {
         onChange={handleImageUpload} 
         multiple = {false}
         />
-      <button className='btn'>Download</button>
+      <a download="image.jpg" href={image} className='btn'>Download</a>
     </>
   )
 }

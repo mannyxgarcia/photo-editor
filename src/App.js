@@ -135,6 +135,7 @@ function App() {
         <div className="sidebar-2">
           <SidebarItem2
             handleImageUpload={handleImageUpload}
+            image={image}
           />
         </div>
         <div className="sidebar">
