@@ -6,7 +6,7 @@ const SidebarItem2 = ({handleImageUpload, image}) => {
     <>
       <label
         className="custom-file-upload"
-        for="file-upload"
+        htmlFor="file-upload"
         >
         Upload
       </label>
